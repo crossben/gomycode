@@ -24,3 +24,13 @@ CONFIGURATION
             git branch -M main
             git remote add origin https://github.com/crossben/gomycode.git
             git push -u origin main
+
+        pour ajouter votre code sur le repo git
+            git add .
+            git status
+            git commit -m "message"
+            git push origin main
+
+        pour recuper les modification faites par les autres
+            git clone + lien
+            git pull origin main
