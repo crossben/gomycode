@@ -34,3 +34,7 @@ CONFIGURATION
         pour recuper les modification faites par les autres
             git clone + lien
             git pull origin main
+
+DOCUMENTATION 
+    liens :
+        html special character : https://www.w3schools.com/html/html_symbols.asp
