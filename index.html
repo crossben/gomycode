@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../style/bootstrap/css/bootstrap.min.css">
+    <title>GoMyCode</title>
+    <link rel="stylesheet" href="./style/bootstrap/css/bootstrap.min.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/index.html">LOGO</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand" href="/">
+                    <img src="../assets/icons/flutter.webp" alt="" srcset="" width="54px">
+                </a>
+                <button style="border : none" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="">
+                        <img src="./assets/icons/burger.webp" width="50px" alt="" srcset="">
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="/index.html">Acceuil</a>
+                            <a class="nav-link active" aria-current="page" href="/">Acceuil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/produit.html">Nos Produits</a>
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/inscription.html">Inscription</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/connexion.html">Connexion</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -30,28 +40,115 @@
                                 Categories
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Boutiques officielles</a></li>
+                                <li><a class="dropdown-item" href="#">Telephone & Tablettes</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Informatique</a></li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/icons/flutter.webp" class="d-block w-100" width="60px" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/icons/node.webp" class="d-block w-100" width="60px" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/icons/cat.webp" class="d-block w-100" width="60px" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </header>
-    <main class="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, magnam.</p>
+    <main>
+        <div>
+            <div class="container">
+                <div class="col-12 text-center">
+                    <h1 class="" style="background: yellow;">Rendez vous ce Lundi à 10h!</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2 m-2">
+                        <div class="card">
+                            <img src="./assets/icons/flutter.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">PS5</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <span>15 FCA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 m-2">
+                        <div class="card">
+                            <img src="./assets/icons/flutter.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">PS4</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <span>15 FCA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 m-2">
+                        <div class="card">
+                            <img src="./assets/icons/flutter.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Dell vostro</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <span>15 FCA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 m-2">
+                        <div class="card">
+                            <img src="./assets/icons/flutter.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Dell vostro</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <span>15 FCA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 m-2">
+                        <div class="card">
+                            <img src="./assets/icons/flutter.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Dell vostro</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <span>15 FCA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer class="text-center">
+
+    <footer>
         <div class="container">
-            <p>&copy; gomycode 2024 tout droits reserver</p>
+            <div class="text-center">
+                <p class="lead"> © 2024 GoMyCode. Tout droits reserve.</p>
+            </div>
         </div>
     </footer>
-    <script src="../style/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./style/bootstrap/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
