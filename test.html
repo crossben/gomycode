@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .test {
+            background-color: red;
+            color: white;
+            width: 500px;
+            height: 500px;
+            font-size: 50px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            align-content: center;
+        }
+
+        @media screen and (max-width : 600px) {
+            .test {
+                background-color: green;
+            }
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="test">
+        <p id="p"></p>
+    </div>
+
+
+
+    <script>
+        var p = document.getElementById("p");
+        p.innerHTML = window.innerWidth;
+    </script>
+</body>
+
+</html>
